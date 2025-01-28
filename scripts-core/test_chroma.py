@@ -1,4 +1,5 @@
 # Sample illustration of text embeddings using ChromaDB
+# taken from Data Camp web site
 
 import chromadb
 
