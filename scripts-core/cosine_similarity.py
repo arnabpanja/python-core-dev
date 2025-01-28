@@ -1,3 +1,4 @@
+# function to calculate cosine similarity
 import numpy as np
 
 def compute_cosine_similarity(u: np.ndarray, v: np.ndarray) -> float:
