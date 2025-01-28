@@ -1,7 +1,7 @@
 # Sample illustration of text embeddings using ChromaDB
 
 import chromadb
-from chromadb.config import Settings
+
 
 # create persistent sqlite db in this location
 # chroma db requires a sqlite db
@@ -43,9 +43,9 @@ including one of the largest library systems in the world.
 """
 
 # add the text variables to the collection Students
-# this will automatically download a text embeddding
-# model from github and use that for generating the
-# text embeddings. So a github connection is a must
+# this will automatically download a text embedding
+# model from GitHub and use that for generating the
+# text embeddings. So a GitHub connection is a must
 
 collection.add(
     documents = [student_info, club_info, university_info],
