@@ -1,5 +1,0 @@
-user - arnab.panja@gmail.com
-
-Git Hub Access Token from HTTPS
-
-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
